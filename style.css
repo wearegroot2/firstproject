@@ -1,0 +1,47 @@
+/* header-navbar */
+
+body {
+    background-color: wheat;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.logo {
+    width: 250px;
+    height: 110px;
+    top: 0px;
+}
+
+.navbar {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 8px 12px;
+    align-items: center;
+}
+
+.menubar {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.menubar li {
+    padding: 8px 12px;
+}
+
+/* body */
+h3 {
+    text-align: center;
+    font-size: 36px;
+}
+
+p {
+    text-align: center;
+    font-size: 19px;
+}
